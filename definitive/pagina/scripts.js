@@ -16,7 +16,7 @@ fetch('../data/map.geojson')  // Reemplaza con la ruta a tu archivo GeoJSON
         L.geoJSON(data, {
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, {
-                    radius: 6,   // Tamaño del marcador
+                    radius: 3,   // Tamaño del marcador
                     fillColor: "red", // Color de relleno
                     color: "#000", // Color del borde
                     weight: 1,
